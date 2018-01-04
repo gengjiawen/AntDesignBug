@@ -24,10 +24,11 @@ export default class App extends Component<{}> {
       <View style={styles.container}>
 
         <List>
-          <Item arrow="horizontal" onClick={() => console.log('1')}>提现账户 </Item>
+          <Item arrow="horizontal" onClick={() => console.log('1')}>收支明细</Item>
         </List>
 
-        <View style={{height: 20}} />
+        <View style={{height: 10}} />
+
         <List>
           <Item arrow="horizontal" onClick={() => console.log('1')}>提现账户 </Item>
           {cmps.map(comp => comp)}
